@@ -25,7 +25,7 @@ const HomePage = () => {
     );
 
     swal({
-      title: "Success!",
+      title: "Success",
       text: `${dataProduct.name} has been Added!`,
       icon: "success",
       button: "OK",
