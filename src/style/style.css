@@ -1,0 +1,71 @@
+.table-sale {
+  animation-name: price;
+  animation-duration: 2s;
+  border-radius: 4px;
+  padding: 0px;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+
+@keyframes price {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.button-payment {
+  animation-name: payment;
+  animation-duration: 2s;
+}
+@keyframes payment {
+  0% {
+    opacity: 0;
+    left: 100px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+}
+.link a:hover {
+  color: gray;
+}
+.footer {
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 0px;
+}
+
+.cartEmpty img {
+  width: 350px;
+  height: 350px;
+}
+
+.btn-modal {
+  color: white;
+  background-color: #212529;
+  border: none;
+}
+
+.btn-modal:hover {
+  color: gray;
+}
+
+.search {
+  border-radius: 4px;
+  background-color: none;
+  position: absolute;
+  right: 72px;
+  padding-left: 10px;
+}
